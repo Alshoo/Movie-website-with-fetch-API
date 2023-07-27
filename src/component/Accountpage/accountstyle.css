@@ -1,0 +1,84 @@
+#inputsforloginall {
+  width: 48%;
+  margin: auto;
+  margin-top: 20px;
+  transform: translate(-18%, 40%);
+}
+#loginpageidetindspo {
+  height: 100vh;
+}
+#inputslogin {
+  background-color: #1f1f1f;
+  border: 1px solid white;
+  width: 130%;
+  color: aliceblue;
+  border-radius: 5px;
+}
+#inputsforloginall p {
+  transform: translateY(65%);
+}
+
+#buttonlogin {
+  width: 130%;
+  margin: 19px 0px;
+  color: black;
+}
+#submitbuttonsandcreatenew {
+  width: 130%;
+  text-align: center;
+  transform: translateY(-100%);
+}
+
+#pictureforaccount {
+  background: wheat;
+  border-radius: 50%;
+}
+#upload {
+  display: none;
+}
+#choosepicturesection {
+  text-align: center;
+  margin-top: 100px;
+}
+#inputsforloginall0 {
+  width: 48%;
+  margin: auto;
+  margin-top: 20px;
+  transform: translateX(-18%);
+}
+#inputslogin0 {
+  background-color: #1f1f1f;
+  border: 1px solid white;
+  width: 130%;
+  color: aliceblue;
+  border-radius: 5px;
+}
+
+#buttonlogin0 {
+  width: 130%;
+  margin: 19px 0px;
+  color: black;
+}
+#inputsforloginall0 p {
+  transform: translateY(65%);
+}
+#submitbuttonsandcreatenew0 {
+  width: 130%;
+  text-align: center;
+  transform: translateY(-100%);
+}
+
+#dangeralert {
+  width: 29%;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+#dangeralert2 {
+  width: 29%;
+  position: absolute;
+  transform: translate(160%, 200%);
+}
+#massageforcreateaccount {
+  position: absolute;
+}

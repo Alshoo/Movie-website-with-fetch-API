@@ -1,0 +1,73 @@
+#masssagewelcome {
+  border: 1px solid #f33f3f;
+  border-radius: 5px;
+  padding: 15px;
+  background: rgba(217, 217, 217, 0.1);
+}
+#inputcenter2 {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  margin-top: 4rem;
+}
+#searchinput2 {
+  background-image: url("../../images/search.png");
+  background-repeat: no-repeat;
+  background-position: 7px;
+  background-color: #1f1f1f;
+  border: 1px solid rgba(255, 255, 255, 0.37);
+  text-align: center;
+  padding: 8px;
+  border-radius: 9px;
+  color: aliceblue;
+  width: 75%;
+}
+#popularmovsec {
+  margin-top: 40px;
+}
+#addmovieicon {
+  position: absolute;
+}
+#fristheadersection {
+  width: 90%;
+  margin: auto;
+}
+#paggemnationediting {
+  margin: 0;
+}
+#paggemnationediting * {
+  color: aliceblue;
+  background: #141313;
+  border: none;
+  border-radius: 10pc;
+}
+#listsofnewmovie {
+  position: relative;
+  top: -70px;
+  left: 32px;
+}
+#listsofnewmovie ul {
+  background: #141313;
+  width: 300px;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-left: 0px;
+}
+@media (max-width: 800px) {
+  #center {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (min-width: 100px) and (max-width: 671px) {
+  #inputcenter2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+  }
+  #inputcenter2 #searchinput2 {
+    width: 100%;
+  }
+}

@@ -1,0 +1,300 @@
+#mainnav {
+  background-color: #000000;
+  height: 100vh;
+  padding: 0 10px 0 7px;
+  position: fixed;
+}
+
+#center22 {
+  font-size: 10px !important;
+}
+@media (min-width: 1205px) {
+  #center22 {
+    font-size: 16px !important;
+  }
+}
+#inputcenter {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+#pagestrans {
+  padding: 5% 0 5% 10%;
+}
+#pagestrans a {
+  padding: 5px 38px 5px 10px;
+  border-radius: 10px;
+  margin-right: 60px;
+}
+#pagestrans a:hover {
+  background-color: rgba(240, 248, 255, 0.198);
+}
+
+#pagestrans * {
+  margin-top: 3%;
+  text-decoration: none;
+  color: white;
+}
+#pagestrans p {
+  transform: translateY(8px);
+}
+#hrnav {
+  color: white;
+  width: 90%;
+  margin: auto;
+}
+#pagestrans Button {
+  width: 80%;
+  margin-left: -10px;
+  color: #000000;
+  font-weight: bold;
+}
+#imgaccount {
+  background: aliceblue;
+  border-radius: 15px;
+  padding: 2px;
+  margin: 0 5% 0 0;
+  width: 30px;
+}
+#loginbutton {
+  width: 80%;
+  margin: auto;
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 8px;
+  position: absolute;
+  bottom: 10px;
+  margin-left: 21px;
+}
+#loginbutton * {
+  display: inline;
+  color: white;
+}
+@media (max-width: 924px) {
+  #loginbutton * {
+    font-size: 10px;
+  }
+}
+#threepoint {
+  background: none;
+  text-decoration: none;
+  color: antiquewhite;
+  font-weight: 900;
+  float: right;
+  padding: 0 10px;
+  border: none;
+}
+#threepoint * {
+  padding: 1.5px;
+}
+
+#removeiconeforaccount {
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+}
+
+#Createwatchlist {
+  width: 90%;
+  margin: auto;
+  color: antiquewhite;
+  transform: translate(0%, 30%);
+}
+#nameinputlist {
+  background: #00000000;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 100%;
+  height: 45px;
+  color: aliceblue;
+}
+#descriptioninputlist {
+  background: #00000000;
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 100%;
+  height: 150px;
+  color: aliceblue;
+}
+#titleofCreatewatchlist {
+  margin-top: -90px;
+  margin-bottom: 90px;
+}
+
+#listsofmovies * {
+  display: inline;
+  margin-left: 18px;
+}
+
+#pageofwatchlistdetails {
+  width: 80%;
+  margin: auto;
+}
+
+#titleofmoviedetails {
+  margin-top: 50px;
+  display: flex !important;
+  justify-content: space-between;
+  align-items: center;
+  gap: -40px;
+}
+
+#ITEMSONLIST {
+  border: 1px solid red;
+  text-align: center;
+  background: rgba(217, 217, 217, 0.1);
+  border-radius: 7px;
+  padding: 10px;
+}
+
+#backgroundchange {
+  background-color: #1f1f1f !important;
+  color: aliceblue;
+}
+@media (max-width: 450px) {
+  #paggemnationediting * {
+    font-size: 10px;
+    margin: auto;
+  }
+  #ITEMSONLIST {
+    width: 103px;
+  }
+}
+
+#toggle {
+  width: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  position: absolute;
+  top: 52px;
+  left: 19px;
+  cursor: pointer;
+}
+#backblacking {
+  display: none;
+}
+#toggle div {
+  background: white;
+  margin-bottom: 5px;
+  height: 3px;
+  transition: 0.5s;
+  width: 30px;
+}
+#toggle div:first-child {
+  width: 100%;
+}
+#toggle div:nth-child(2) {
+  width: 70%;
+  display: flex;
+}
+#toggle div:last-child {
+  width: 100%;
+}
+#toggle:hover div:nth-child(2) {
+  width: 100%;
+}
+#toggle:hover div {
+  background: red;
+}
+#icon {
+  color: aliceblue;
+  font-size: 29px;
+  margin-top: 19px;
+  cursor: pointer;
+}
+#icon :hover {
+  color: red;
+}
+#ulshowlist {
+  position: relative;
+  top: 60px;
+  margin-left: -36px;
+  color: white;
+}
+@media (min-width: 500px) and (max-width: 671px) {
+  #loginbutton #testing34 {
+    padding-right: 68% !important;
+  }
+}
+@media (min-width: 100px) and (max-width: 671px) {
+  #RemoveinggAccount {
+    transform: translateX(18%);
+  }
+  #hiddenfristsec {
+    display: none;
+    background-color: #1f1f1f;
+    height: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  #mainnav {
+    display: none;
+  }
+  #backblacking {
+    position: fixed;
+    background: #000000;
+    height: 100vh;
+    width: 61px;
+    display: block;
+  }
+  #imgaccount2 {
+    background: aliceblue;
+    border-radius: 15px;
+    padding: 2px;
+    margin: 0 5% 0 0;
+    width: 30px;
+
+    position: absolute;
+    bottom: 10px;
+    margin-left: 15px;
+  }
+  #scaletext * {
+    position: relative;
+    bottom: -280px;
+    letter-spacing: 8px;
+    margin-right: 18px;
+    transform: rotate(-90deg);
+  }
+  #paggemnationediting .page-item * {
+    display: flex !important;
+    align-items: center;
+    text-align: center;
+    width: 40% !important;
+    font-size: 5px !important;
+  }
+  #loginbutton {
+    width: 90%;
+    margin: auto;
+    border: 1px solid white;
+    border-radius: 16px;
+  }
+  #loginbutton #testing34 {
+    padding-right: 38%;
+  }
+  #ulshowlist {
+    position: relative;
+    top: -28px;
+    margin-left: -196px;
+    color: white;
+  }
+  #sdsifj8348734 {
+    margin: auto;
+  }
+}
+@media (min-width: 100px) and (max-width: 351px) {
+  #paggemnationediting .page-item * {
+    width: 40% !important;
+    font-size: 4px !important;
+  }
+  #RemoveinggAccount {
+    transform: translateX(5%);
+  }
+}
+@media (min-width: 351px) and (max-width: 451px) {
+  #RemoveinggAccount {
+    transform: translateX(12%);
+  }
+}

@@ -1,0 +1,12 @@
+#historysection {
+  width: 95%;
+  margin: auto;
+  margin-top: 3%;
+}
+
+#dflexbettwentext {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* transform: translateY(-100%); */
+}

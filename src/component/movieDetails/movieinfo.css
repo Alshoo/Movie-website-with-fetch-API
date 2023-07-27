@@ -1,0 +1,47 @@
+#movieinfo {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+#filmdet {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+#scorenumber {
+  display: block;
+  width: 100%;
+  padding: 20px 30px 20px 5px;
+  border: 2px solid #dc3545;
+  background-color: rgba(217, 217, 217, 0.1);
+  height: 120px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+#scorenumber h1 {
+  color: #dc3545;
+}
+#RelatedMovies {
+  margin-top: 100px;
+}
+#ul22 {
+  position: relative;
+  top: 60px;
+  margin-left: -36px;
+  color: white;
+}
+@media (min-width: 100px) and (max-width: 900px) {
+  #filmdet {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (min-width: 100px) and (max-width: 400px) {
+  #ul22 {
+    position: relative;
+    width: 100% !important;
+    top: 60px;
+    margin-left: -36px;
+    color: white;
+  }
+}
